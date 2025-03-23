@@ -9,9 +9,9 @@ CSS-правило состоит из нескольких обязательн
 
 ## Каскадная модель, селекторы и их специфичность
 
-https://doka.guide/css/cascade/
-https://doka.guide/css/specificity/
-https://ru.bem.info/methodology/
+- https://doka.guide/css/cascade/
+- https://doka.guide/css/specificity/
+- https://ru.bem.info/methodology/
 
 Сокращение CSS — Cascading Style Sheets или же каскадные таблицы стилей.
 
@@ -24,9 +24,9 @@ https://ru.bem.info/methodology/
 
 ##  Селекторы
 
-https://doka.guide/css/tag-selector/
-https://learn.javascript.ru/css-selectors
-https://practicum.yandex.ru/blog/chto-takoe-css-selektory-ih-tipy-i-kombinirovanie/
+- https://doka.guide/css/tag-selector/
+- https://learn.javascript.ru/css-selectors
+- https://practicum.yandex.ru/blog/chto-takoe-css-selektory-ih-tipy-i-kombinirovanie/
 
 С помощью селекторов мы указываем какие стили нужно применить к одному или группе элементов (как бы прицеливаемся к элементу).
 ' * '  – любые элементы.
@@ -43,15 +43,16 @@ a#id.c1.c2:visited – элемент a с данным id, классами c1 
 Но проще всего выстроить стили так, чтобы у них был один уровень специфичности, например специфичность по классу, как это сделано в БЭМ
 
 ## Наследование
-https://doka.guide/css/inheritance/
+- https://doka.guide/css/inheritance/
+
 Механизм, с помощью которого значения свойств элемента-родителя передаются его элементам-потомкам.
 Стили, присвоенные одному элементу, наследуются всеми потомками (вложенными элементами), но только в том случае, если они где-то явно не переопределены.
 Например, размер шрифта и его цвет достаточно применить к body, чтобы большинство элементов внутри имели те же свойства. 
 Наследуются не все св-ва, только шрифты, межбуквенные расстояния, параметры текста. Цвета уже не наследуются, если только явно не указать в св-ве значение inherit
 
 ## Блочная модель
+- https://doka.guide/css/box-model/
 
-https://doka.guide/css/box-model/
 В браузере все элементы - это прямоугольники, где во время отрисовки применяются css св-ва и рассчитываются их позиции и размеры.
 
 У каждого блока есть несколько характеристик:
@@ -60,11 +61,13 @@ https://doka.guide/css/box-model/
 - padding — внутренние отступы от контента до краёв элемента;
 - border — рамка, идущая по краю элемента;
 - margin — внешние отступы вокруг элемента.
-![[Pasted image 20250216190900.png]]
+
+![Процесс](./images/Pasted%20image%2020250216190900.png)
 
 ## Единицы измерения
 
-https://doka.guide/css/numeric-types/
+- https://doka.guide/css/numeric-types/
+
 Делятся на две большие группы - относительные и абсолютны
 
 Абсолютные величины ни от чего не зависят и привязаны к физическим единицам измерения - чаще используются px и pt
@@ -77,8 +80,9 @@ https://doka.guide/css/numeric-types/
 
 ## Display
 
-https://learn.javascript.ru/display
-https://doka.guide/css/display/
+- https://learn.javascript.ru/display
+- https://doka.guide/css/display/
+
 Указывет как будет отображаться и позиционироваться блок - как блочный или как строчный
 ```
 display: block/inline/inline-block
@@ -99,7 +103,7 @@ inline-block - строчно-блочное отображение,  испол
 
 Все что внутри контейнера- это элементы и флесами мы можем управлять ими.
 
-![[Pasted image 20250223192014.png]]
+![Процесс](./images/Pasted%20image%2020250223192014.png)
 
 Элементы в контейнере расположены по основной оси по умолчанию по горизонтали слева на право ( flex-direction: row)
 И мы можем развернуть основную ось с помощью св-ва flex-direction: 
@@ -110,7 +114,7 @@ inline-block - строчно-блочное отображение,  испол
 
 Поперечная ось идёт перпендикулярно главной. Соответственно, если главная ось идёт по горизонтали, то поперечная пройдёт по вертикали. И наоборот: если главная ось идёт по вертикали, поперечная пройдёт по горизонтали.
 
-![Процесс](./images/Pasted%20image%2020250216190900.png)
+![Процесс](./images/Pasted%20image%2020250223192035.png)
 
 С помощью justify-content можно указать к какой стороне будем прижимать элементы
 Если элементы нужно прижать к началу оси, используем justify-content: flex-start;
@@ -123,19 +127,19 @@ inline-block - строчно-блочное отображение,  испол
 если к концу, то align-items: flex-end;
 если к центру, то align-items: center:
 
-Что почитать
-https://doka.guide/css/flexbox-guide/
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Flexbox
-https://bureau.ru/soviet/20220428/ - краткий гайд по флексам
-https://yoksel.github.io/flex-cheatsheet/
+## Что почитать
+- https://doka.guide/css/flexbox-guide/
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Flexbox
+- https://bureau.ru/soviet/20220428/ - краткий гайд по флексам
+- https://yoksel.github.io/flex-cheatsheet/
 
-Где потренироваться
-https://flexboxfroggy.com/#ru - тренажер с милыми лягушками
-http://www.flexboxdefense.com/
-$https://htmlacademy.ru/courses/96
-$https://htmlacademy.ru/courses/113
-$https://ru.hexlet.io/courses/css-flex
+## Где потренироваться
+- https://flexboxfroggy.com/#ru - тренажер с милыми лягушками
+- http://www.flexboxdefense.com/
+- https://htmlacademy.ru/courses/96
+- https://htmlacademy.ru/courses/113
+- https://ru.hexlet.io/courses/css-flex
 
 ## Mobile-first vs Desktop-first адаптивный дизайн и  media-queries
 Используется для адаптации контента под разные экраны.
@@ -144,8 +148,8 @@ $https://ru.hexlet.io/courses/css-flex
 Mobile-first подход получил широкое распространение в современном вебе благодаря возросшей популярности мобильных устройств.
 Однако есть типы задач (CRM / ERP системы, дашборды, эффектные имидживые проекты), для решения которых Desktop-first остаётся более подходящим, так как там чаще пользуются большими экранами
 
-https://doka.guide/css/mobile-first-vs-desktop-first/
-https://doka.guide/css/media/
+- https://doka.guide/css/mobile-first-vs-desktop-first/
+- https://doka.guide/css/media/
 
 ## UI библиотеки
 Чаще всего в промышленной разработке вы будете пользоваться уже готовыми стилизованными ui-библиотеками.
@@ -174,17 +178,18 @@ https://gravity-ui.com/
 Стили из css файла должны применяться ко всем страничкам вашего сайта
 
 ## Что почитать
-• https://doka.guide/css/ - Основы, Селекторы, Размеры и отступы, Единицы измерения, Позиционирование
-• https://web.dev/learn/css#box-model- главы 1-8, 11-15, 17-18
-• https://fffuel.co/css-selectors/#attribute - селекторы
+-  https://doka.guide/css/ - Основы, Селекторы, Размеры и отступы, Единицы измерения, Позиционирование
+-  https://web.dev/learn/css#box-model- главы 1-8, 11-15, 17-18
+-  https://fffuel.co/css-selectors/#attribute - селекторы
 https://ru.hexlet.io/courses/css-content/lessons/box-model/theory_unit
 
-Где потренироваться
-https://htmlacademy.ru/courses/307 - основы
-https://flukeout.github.io/ - перемещать тарелочки с помощью селекторов
-https://katydecorah.com/css-ruler/ - про размеры в css
-https://cssbattle.dev/ - интересные задачки по сss 
+## Где потренироваться
+- https://htmlacademy.ru/courses/307 - основы
+- https://flukeout.github.io/ - перемещать тарелочки с помощью селекторов
+- https://katydecorah.com/css-ruler/ - про размеры в css
+- https://cssbattle.dev/ - интересные задачки по сss 
 
 
-палетки с готовыми наборами цветов
+палетки с готовыми наборами цветов (для создания красивых элементов)
+
 https://mybrandnewlogo.com/ru/generator-cvetovoi-palitry

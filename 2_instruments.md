@@ -27,14 +27,14 @@
 
 Для любого разработчика очень важно уметь пользоваться git, так как это почти стандарт в разработке. Поэтому я рекомендую почитать одну из статей ниже 
 
-• https://doka.guide/tools/version-control/
-• https://doka.guide/tools/git-cli/
-• https://git-scm.com/book/ru/v2
+- https://doka.guide/tools/version-control/
+- https://doka.guide/tools/git-cli/
+- https://git-scm.com/book/ru/v2
 
-и пройти небольшую игру или курс, чтобы понять как работает git.
-https://learngitbranching.js.org/?locale=ru_RU
-https://githowto.com/ru/setup
-https://ru.hexlet.io/courses/intro_to_git
+и пройти небольшую игру или курс, чтобы понять как работает git
+- https://learngitbranching.js.org/?locale=ru_RU
+- https://githowto.com/ru/setup
+- https://ru.hexlet.io/courses/intro_to_git
 
 ## Терминал или командная строка
 Позволяет человеку взаимодействовать с компьютером с помощью текстовых команд заданного формата.

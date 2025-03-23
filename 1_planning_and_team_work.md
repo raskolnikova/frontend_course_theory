@@ -46,9 +46,9 @@
 - гибкие подходы - agile и его производные scrum и kanban - используется чаще всего в современных компаниях. Короткими итерациями по две-три недели проводятся все этапы из waterfall, но в конце итерации смотрят что нужно изменить/добавить в проект и планируются работы в следующий цикл/спринт.
 
 Подробней можно почитать тут
-https://skillbox.ru/media/management/waterfall/
-https://doka.guide/tools/agile/
-https://practicum.yandex.ru/blog/metodology-agile/
+- https://skillbox.ru/media/management/waterfall/
+- https://doka.guide/tools/agile/
+- https://practicum.yandex.ru/blog/metodology-agile/
 
 ## Сначала тз, потом код!
 Важно хотя бы поверхностно прикинуть и описать а чего вы хотите от своего проекта, а потом уже нестись галопом в разработку, так как разработка обычно самая дорогая по времени и деньгам часть проекта.

@@ -8,6 +8,7 @@ JS - это язык прокраммирования, который позво
 А серверный JS не может работать с API браузеров, например обрабатывать DOM-дерево.
 
 Сейчас в промышеленной разработке используется  строго типизированный JS - TypeScript - https://www.typescriptlang.org/
+
 Есть и другие 'диалекты' JS, например JS для четких ребят https://yopta.space/, но в основе все равно код компилируется в JS
 
 Ну и начнем с традиционного приветствия, которое можно выразить в виде
@@ -47,11 +48,11 @@ console.log(catName) --> Барсик
 
 
 ## Типы данных
-https://learn.javascript.ru/types
-https://doka.guide/js - блок Примитивные типы данных 
-https://habr.com/ru/articles/161205/ - подробней про динамическую и статическую типизацию
+- https://learn.javascript.ru/types
+- https://doka.guide/js - блок Примитивные типы данных 
+- https://habr.com/ru/articles/161205/ - подробней про динамическую и статическую типизацию
 
-Js - это динамически типизированный язык программирования (python, php и тд), то есть тип переменной в таких языках может меняться, например сначала переменная хранила в себе число, а потом может превратиться в строку.
+Javasript - это динамически типизированный язык программирования (python, php и тд), то есть тип переменной в таких языках может меняться, например сначала переменная хранила в себе число, а потом может превратиться в строку.
 Такое не возможно в строго-типизированных языках программирования как c#, java или go, так как при объявлении переменных там сразу указывается его тип.
 
 В js различают следующие основные типы  данных
@@ -68,10 +69,10 @@ console.log(typeof x) --> number
 ```
 
 ## Логические операторы и условия if else
-https://doka.guide/js/if-else/
-https://learn.javascript.ru/logical-operators
-https://learn.javascript.ru/comparison
-https://learn.javascript.ru/ifelse
+- https://doka.guide/js/if-else/
+- https://learn.javascript.ru/logical-operators
+- https://learn.javascript.ru/comparison
+- https://learn.javascript.ru/ifelse
 
 С помощью оператора if else можно выполнить часть кода в зависимости от заданных условий
 
@@ -139,9 +140,9 @@ switch (catKind) {
 ```
 
 ## Циклы while и for
-https://learn.javascript.ru/while-for
-https://doka.guide/js/while/
-https://doka.guide/js/for/
+- https://learn.javascript.ru/while-for
+- https://doka.guide/js/while/
+- https://doka.guide/js/for/
 
 Оператор while...do проверяет условие, и если оно истино, то выполняет код из тела цикла и будет делать так пока условие будет выполняться
 
@@ -208,9 +209,9 @@ for (let i = 0; i < 10; i++) {
 ```
 
 ## Функции
-https://learn.javascript.ru/function-basics
-https://learn.javascript.ru/function-expressions
-https://doka.guide/js/function/
+- https://learn.javascript.ru/function-basics
+- https://learn.javascript.ru/function-expressions
+- https://doka.guide/js/function/
 
 Функции обычно используются, если мы один и тот же код хотим использовать в разных частях программы. Это позволяет не копипастить/повторять один и тот же блок, а хранить набор команд в одном месте и делает наш код более читаемым.
 
@@ -262,12 +263,12 @@ https://learn.javascript.ru/function-declaration-expression
 
 ## Работа с dom-деревом (добавить из проекта)
 
-https://doka.guide/js/dom/
-https://doka.guide/js/element/
-https://learn.javascript.ru/dom-nodes
-https://learn.javascript.ru/dom-navigation
-https://learn.javascript.ru/modifying-document
-https://learn.javascript.ru/searching-elements-dom
+- https://doka.guide/js/dom/
+- https://doka.guide/js/element/
+- https://learn.javascript.ru/dom-nodes
+- https://learn.javascript.ru/dom-navigation
+- https://learn.javascript.ru/modifying-document
+- https://learn.javascript.ru/searching-elements-dom
 
 Добавляем скрипт в наш блог и попробуем отобразить список статей с помощью js
 Для этого нам нужно использовать методы по работе с DOM деревом:

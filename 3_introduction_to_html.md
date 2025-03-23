@@ -16,9 +16,9 @@
 ![Процесс 2](./images/Pasted%20image%2020250215204925.png)
 
 Почитать
-https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works
-https://doka.guide/tools/web-app-works/
-https://doka.guide/tools/network/
+- https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works
+- https://doka.guide/tools/web-app-works/
+- https://doka.guide/tools/network/
 
 ## HTML 
 Для отображения данных в браузере используется язык разметки html для создания структуры веб-страницы и представления контента (картинка, текст, аудио и видео). При помощи HTML мы описываем структуру страниц и их содержимого, то есть объясняем браузерам в каком порядке отображать элементы, и что они значат.
@@ -142,9 +142,9 @@ https://html5book.ru/block-inline-elements/
 
 ## Теги style, script и link
 
-https://htmlacademy.ru/blog/html-tags/link
-https://htmlacademy.ru/blog/html-tags/script
-https://htmlacademy.ru/blog/html-tags/style
+- https://htmlacademy.ru/blog/html-tags/link
+- https://htmlacademy.ru/blog/html-tags/script
+- https://htmlacademy.ru/blog/html-tags/style
 
 Внутри тега style можно задать параметры для CSS-стилей, которые применяются на странице, то есть описывается, как будут выглядеть заголовки, ссылки, обычный текст и другие элементы страницы. Обычно style пишется в теге head
 
@@ -211,8 +211,8 @@ https://htmlacademy.ru/blog/html-tags/style
 
 ## Семантическая верстка
 
-https://htmlacademy.ru/blog/html/semantics
-https://doka.guide/html/semantics/
+- https://htmlacademy.ru/blog/html/semantics
+- https://doka.guide/html/semantics/
 
 Нужна для лучшей читаемости кода, ux, поисковиков и скринридеров.
 Обычно используются следующие теги для разметки контента внутри страницы
@@ -300,29 +300,29 @@ https://doka.guide/html/semantics/
 https://ru.hexlet.io/blog/posts/osnovnye-tegi-html
 
 Заголовки h1-h6
-https://code-basics.com/ru/languages/html/lessons/hypertext-header
+- https://code-basics.com/ru/languages/html/lessons/hypertext-header
 
 Форматирование текста (жирный, курсив и тд) b, i, strong, em
 параграф p pre 
-https://code-basics.com/ru/languages/html/lessons/text-style
-https://code-basics.com/ru/languages/html/lessons/pre
+- https://code-basics.com/ru/languages/html/lessons/text-style
+- https://code-basics.com/ru/languages/html/lessons/pre
 
 Теги для списков ul ol li
-https://code-basics.com/ru/languages/html/lessons/lists
+- https://code-basics.com/ru/languages/html/lessons/lists
 
 ссылка
-https://code-basics.com/ru/languages/html/lessons/links
+- https://code-basics.com/ru/languages/html/lessons/links
 
 изображения
-https://code-basics.com/ru/languages/html/lessons/img
+- https://code-basics.com/ru/languages/html/lessons/img
 
 теги для таблиц 
-https://code-basics.com/ru/languages/html/lessons/table
+- https://code-basics.com/ru/languages/html/lessons/table
 
 теги для формы form input button checkbox и тд
-https://ru.hexlet.io/courses/css-content/lessons/forms/theory_unit
-https://htmlacademy.ru/blog/html-tags/form
-https://code-basics.com/ru/languages/html/lessons/form-basics
+- https://ru.hexlet.io/courses/css-content/lessons/forms/theory_unit
+- https://htmlacademy.ru/blog/html-tags/form
+- https://code-basics.com/ru/languages/html/lessons/form-basics
 
 ## Практика
 Сделать на html скелет своего будущего сайта-визитки, который должен состоять из следующих блоков
@@ -339,23 +339,22 @@ https://code-basics.com/ru/languages/html/lessons/form-basics
 ## Что почитать
 
 Про хтмл
-https://doka.guide/html/#osnovy
-https://developer.mozilla.org/ru/docs/Web/HTML
-http://htmlbook.ru/
-http://oreillymedia.github.io/HTMLBook/ -официальная спецификация по html 5
+- https://doka.guide/html/#osnovy
+- https://developer.mozilla.org/ru/docs/Web/HTML
+- http://htmlbook.ru/
+- http://oreillymedia.github.io/HTMLBook/ -официальная спецификация по html 5
 
 Про семантику
-https://doka.guide/html/semantics/
-https://htmlacademy.ru/blog/html/semantics
+- https://doka.guide/html/semantics/
+- https://htmlacademy.ru/blog/html/semantics
 
 ## Где потренироваться
-https://code-basics.com/ru/languages/html/lessons/block - бесплатный
-https://htmlacademy.ru/courses/297/run/1 - частично бесплатный
-$ https://htmlacademy.ru/courses/44
-https://htmlacademy.ru/courses/299
-https://htmlacademy.ru/courses/305
-https://htmlacademy.ru/courses/301
-Или
-https://ru.hexlet.io/courses/html
+- https://code-basics.com/ru/languages/html/lessons/block - бесплатный
+- https://htmlacademy.ru/courses/297/run/1 - частично бесплатный
+- https://htmlacademy.ru/courses/44 - частично бесплатный
+- https://htmlacademy.ru/courses/299
+- https://htmlacademy.ru/courses/305
+- https://htmlacademy.ru/courses/301
+- https://ru.hexlet.io/courses/html
 
 
