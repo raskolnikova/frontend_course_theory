@@ -127,14 +127,14 @@ inline-block - строчно-блочное отображение,  испол
 если к концу, то align-items: flex-end;
 если к центру, то align-items: center:
 
-## Что почитать
+## Что почитать про flexbox
 - https://doka.guide/css/flexbox-guide/
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Flexbox
 - https://bureau.ru/soviet/20220428/ - краткий гайд по флексам
 - https://yoksel.github.io/flex-cheatsheet/
 
-## Где потренироваться
+## Где потренироваться flexbox
 - https://flexboxfroggy.com/#ru - тренажер с милыми лягушками
 - http://www.flexboxdefense.com/
 - https://htmlacademy.ru/courses/96
@@ -151,18 +151,31 @@ Mobile-first подход получил широкое распростране
 - https://doka.guide/css/mobile-first-vs-desktop-first/
 - https://doka.guide/css/media/
 
+## Использование анимаций
+Анимации позволяют добавить в ваш сайт большей интерактивности и живости. Начиная от подсвечивания кнопки заканчивая сложными сценами.
+Чаще всего в сайтах используется св-во transition, чтобы сделать применение css правила более плавным. Напримем плавная смена цвета кнопки при наведении мыши.
+А для более сложных анимаций используются keyframes и набор св-в animation-...
+
+- https://doka.guide/css/animation/
+- https://doka.guide/css/transition/
+- https://doka.guide/css/keyframes/
+- https://doka.guide/css/animation-delay/
+
 ## UI библиотеки
 Чаще всего в промышленной разработке вы будете пользоваться уже готовыми стилизованными ui-библиотеками.
+
 Примеры
 
-https://tailwindcss.com/
-https://mui.com/
-https://getbootstrap.com
+- https://tailwindcss.com/
+- https://mui.com/
+- https://getbootstrap.com
 
-Большие компании делают свои дизайн системы и ui kit (контур, яндекс и тд)
+В таких библиотеках обычно просто подключают скрипты и стили и уже на нужном html-элементе указывают class из документации, чтобы применился css-селектор подключенной нами библиотеки. 
 
-https://guides.kontur.ru
-https://gravity-ui.com/
+В больших компания стараются делать свои дизайн системы и ui kit (контур, яндекс и тд), которые используются внутри компании.
+Примеры:
+- https://guides.kontur.ru
+- https://gravity-ui.com/
 
 ## Практика
 
